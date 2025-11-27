@@ -1,4 +1,3 @@
-; Sat Sep 13 11:19:40 AM MDT 2025
 G91               ; relative positioning
 G1 H1 Y-510 F5000 ; move quickly to Y axis endstop and stop there (first pass)
 G1 Y5 F8000       ; go back a few mm

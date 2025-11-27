@@ -1,4 +1,3 @@
-; Sat Sep 13 11:19:40 AM MDT 2025
 ;G91                     ; relative positioning
 ;G1 H2 Z10 F6000          ; lift Z relative to current position
 ; 

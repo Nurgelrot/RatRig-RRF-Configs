@@ -1,4 +1,3 @@
-; Sat Sep 13 11:19:40 AM MDT 2025
 M290 R0 S0    ;  clear baby stepping
 M561          ;  reset all bed adjustments
 M400 S1         ;  flush move queue
@@ -10,7 +9,7 @@ if !move.axes[0].homed || !move.axes[1].homed || !move.axes[2].homed
 G1 Z15 ;F2000
 M401 
 G30 P0 X30 Y30 Z-99999 ; probe near a leadscrew
-G30 P1 X250 Y465 Z-99999 ; probe near a leadscrew
+G30 P1 X250 Y470 Z-99999 ; probe near a leadscrew
 G30 P2 X470 Y30 Z-99999 S3 ; probe near a leadscrew and calibrate 3 motors
 echo "Current rough pass deviation: " ^ move.calibration.initial.deviation
 

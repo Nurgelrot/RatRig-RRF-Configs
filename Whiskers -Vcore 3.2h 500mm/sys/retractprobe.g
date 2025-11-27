@@ -1,4 +1,3 @@
-'Sat Sep 13 11:19:40 AM MDT 2025
 if sensors.probes[0].value[0] == 0
   M564 H1
   G90

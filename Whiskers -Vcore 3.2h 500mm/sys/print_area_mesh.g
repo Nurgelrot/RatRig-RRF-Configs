@@ -1,4 +1,3 @@
-; Sat Sep 13 11:19:40 AM MDT 2025
 ; This command will only create a mesh of the print area
 ; This will reduce the printing time considerably by only probing what is needed
 M401 ; explicitly go get the probe so we dont waste more time
