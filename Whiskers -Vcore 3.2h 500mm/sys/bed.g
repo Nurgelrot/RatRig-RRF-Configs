@@ -7,7 +7,7 @@ if !move.axes[0].homed || !move.axes[1].homed || !move.axes[2].homed
   G28
 
 G1 Z15 ;F2000
-M401 
+M401 			; Pickup the euclid from the dock
 G30 P0 X30 Y30 Z-99999 ; probe near a leadscrew
 G30 P1 X250 Y470 Z-99999 ; probe near a leadscrew
 G30 P2 X470 Y30 Z-99999 S3 ; probe near a leadscrew and calibrate 3 motors
@@ -37,4 +37,4 @@ G1 X250 Y250 Z15 F18000
 M558 H15 F400:120 
 
 ; rehome Z as the absolute height of the z plane may have shifted
-G28 Z
+G28 Z ; Note this G28 with return the euclid to the dock when completed. 
