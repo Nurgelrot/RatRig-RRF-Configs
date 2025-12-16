@@ -22,6 +22,11 @@ M569 P0.3 S0 D2                                             ; physical drive 0.3
 M569 P1.0 S0 D3     										; physical drive 0.0 ZL goes forwards
 M569 P1.1 S0 D3 											; physical drive 0.1 ZM goes forwards
 M569 P1.2 S0 D3 											; physical drive 0.2 ZR goes forwards
+; Z axis _____                                      ;    
+;        |1.1|                                      ;
+;    _____---_____                                  ;    
+;    |1.0|   |1.2|                                  ;
+;     ---     ---                                   ;
 
 ; Toolboard
 M569 P121.0 S0 D2											; physical drive 121.0 E goes forward
