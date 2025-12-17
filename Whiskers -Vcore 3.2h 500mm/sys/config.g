@@ -1,4 +1,4 @@
-; Configuration file for Duet 3 Mini 5+ (firmware version 3.4)
+; Configuration file for Duet 3 6HC (firmware version 3.6.1)
 ; executed by the firmware on start-up
 
 ; General preferences
